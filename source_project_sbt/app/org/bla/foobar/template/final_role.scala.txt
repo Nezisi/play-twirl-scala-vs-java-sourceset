@@ -1,0 +1,5 @@
+@(role: String)
+@finalRole() = @{
+    if (role.equals("customer")) "customer" else "supplier"
+}
+@(finalRole)
